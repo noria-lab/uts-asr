@@ -211,15 +211,6 @@ Este proyecto demuestra:
 7. **Factory Method** - Creación de recognizers y líneas de audio
 8. **Observer** - Callbacks asíncronos desde workers
 
-### Ejercicios Propuestos
-
-1. Agregar botón **PAUSE** que suspenda/reanude grabación
-2. Implementar **búsqueda** en transcripciones guardadas
-3. Exportar a **PDF** usando biblioteca externa
-4. Agregar **selector de idioma** para múltiples modelos
-5. Implementar **corrección manual** antes de guardar
-6. Crear **dashboard** de estadísticas (palabras/min, duración)
-
 ---
 
 ## 🧪 Testing
