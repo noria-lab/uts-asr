@@ -228,16 +228,6 @@ ffmpeg -version
 arecord -l
 ```
 
-### Tests Programáticos
-
-Ver `EJEMPLOS_USO.md` para:
-- Test de carga de modelo
-- Test de captura de micrófono
-- Test de conversión FFmpeg
-- Test de parseo JSON
-
----
-
 ## 🐛 Troubleshooting
 
 ### Error: "Model not found"
@@ -263,18 +253,6 @@ Ver `EJEMPLOS_USO.md` para:
 **Solución:** Ya implementado - `finally` blocks garantizan limpieza
 
 ---
-
-## 📊 Rendimiento
-
-### Benchmarks Típicos (Hardware Mid-Range)
-
-| Métrica | Valor |
-|---------|-------|
-| Carga inicial del modelo | 3-8 segundos |
-| Latencia por chunk (250ms) | 50-100ms |
-| Uso de RAM | ~500MB (modelo) + 200MB (app) |
-| CPU (idle) | <5% |
-| CPU (transcribiendo) | 15-30% (1 core) |
 
 ### Optimizaciones Implementadas
 
